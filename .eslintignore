@@ -1,0 +1,5 @@
+lib/*
+dist/*
+public/*
+node_modules/*
+webpack.dev.server.js

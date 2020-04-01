@@ -1,0 +1,229 @@
+img {
+    -webkit-user-drag: none;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sidenav-trigger {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+}
+
+h1 {
+    margin: 4.8rem 0 1.68rem 0;
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 1.4rem;
+}
+
+.sidenav-trigger .material-icons {
+    color: #ee6e73;
+}
+
+#slide-out .squid {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.wallsquid {
+    width: 100%;
+}
+
+.section {
+    height: auto;
+    min-height: 90vh;
+}
+
+#droope fieldset {
+    margin-bottom: 20px;
+}
+
+#droope legend {
+    font-weight: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: darkseagreen;
+}
+
+#droope .select-box-display {
+    color: dodgerblue;
+    display: inline-block;
+}
+
+#droope .select-box-display ul {
+    padding: 0;
+    margin: 0;
+}
+
+#droope .select-box-listing ul {
+    padding: 0;
+}
+
+#droope .select-box-listing li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+#droope .select-box-listing li:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+#droope .select-box-listing li.active {
+    background: yellow;
+}
+
+#droope .select-box-input {
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#droope .select-box-input:focus {
+    outline: none;
+}
+
+#droope .selection-item-list {
+    padding: 0;
+    margin: 0;
+}
+
+#droope .selection-item.tag {
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+    border: solid 1px hotpink;
+    padding: 3px 20px 3px 5px;
+    position: relative;
+    width: 150px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+#droope .list-cross {
+    color: #000;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 8px;
+    cursor: pointer;
+}
+
+#droope #generatorSection .tuple {
+    width: 90%;
+    border: solid 1px #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.025);
+    margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#droope #generatorSection .tuple img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#droope #generatorSection .tuple button {
+    margin-top: 10px;
+}
+
+#droope #generatorSection .tuple figcaption {
+    width: 80%;
+}
+
+.list-item [type="checkbox"] {
+    opacity: 1 !important;
+}
+
+.list-item.check-enabled {
+    position: relative;
+    padding-left: 20px;
+}
+
+.list-item.check-enabled [type="checkbox"] {
+    position: absolute !important;
+    left: 0;
+    top: 5px;
+}
+
+
+
+/*Suggester changes */
+
+#suggester .select-box-listing li.active {
+    background: yellow;
+}
+
+#suggester .select-box-input {
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#suggester .select-box-input:focus {
+    outline: none;
+}
+
+#suggester .selection-item-list {
+    padding: 0;
+    margin: 0;
+}
+
+#suggester .selection-item.tag {
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+    border: solid 1px hotpink;
+    padding: 3px 20px 3px 5px;
+    position: relative;
+    width: 150px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+#suggester .list-cross {
+    color: #000;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 8px;
+    cursor: pointer;
+}

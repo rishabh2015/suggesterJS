@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloatJs</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons medium">menu</i>
+        </a>
+        <div class="row section" id="about">
+            <div class="col s12 l5 offset-l1 ">
+                <h1>Float JS</h1>
+                <blockquote>
+                    Extensible typescript plugins that float on your framework
+                </blockquote>
+            </div>
+            <div class="col s11 l5">
+                <img class="wallsquid" src="img/mind.png" alt="FloatJS">
+            </div>
+        </div>
+
+        <div class="row section" id="droope">
+            <div class="col s10 offset-s1 ">
+                <h2>Droope</h2>
+                <div class="select-box">
+                    <fieldset>
+                        <legend>Display + Input</legend>
+                        <div class="select-box-display"></div>
+                        <input class="select-box-input" type="text" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>List</legend>
+                        <section class="select-box-listing"></section>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section" id="suggester">
+            <div class="col s10 offset-s1">
+                <h2>Suggester</h2>
+                <div class="suggester-select-box">
+                    <fieldset>
+                        <legend>Display + Input</legend>
+                        <div class="suggester-select-box-display"></div>
+                        <input class="suggester-select-box-input" type="text" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>List</legend>
+                        <section class="suggester-select-box-listing"></section>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="row section" id="documentation">
+            <div class="col s12 l5 offset-l1 ">
+                <h2>Documentation</h2>
+            </div>
+        </div>
+        <div class="row section" id="wiki">
+            <div class="col s12 l5 offset-l1 ">
+                <h2>Wiki</h2>
+            </div>
+        </div>
+        <div class="row section" id="credits">
+            <div class="col s12 l5 offset-l1 ">
+                <h2>Credits</h2>
+            </div>
+        </div>
+
+
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <img class="squid" src="img/power.png" alt="FloatJS">
+            </li>
+            <li>
+                <a class="waves-effect menu-link" href="#about">
+                    <i class="material-icons">favorite_border</i>
+                    About
+                </a>
+            </li>
+            <li>
+                <a class="waves-effect menu-link" href="#suggester">
+                    <i class="material-icons">find_replace</i>
+                    Suggester
+                </a>
+            </li>
+            <li>
+                <a class="waves-effect menu-link" href="#droope">
+                    <i class="material-icons">format_line_spacing</i>
+                    Droope
+                </a>
+            </li>
+            <li>
+                <a class="waves-effect menu-link" href="#documentation">
+                    <i class="material-icons">content_copy</i>
+                    Documentation
+                </a>
+            </li>
+            <li>
+                <a class="waves-effect menu-link" href="#wiki">
+                    <i class="material-icons">filter_drama</i>
+                    Wiki
+                </a>
+            </li>
+            <li>
+                <a class="waves-effect menu-link" href="#credits">
+                    <i class="material-icons">lightbulb_outline</i>
+                    Authors & Contributors
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="main.bundle.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

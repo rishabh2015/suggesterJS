@@ -1,0 +1,4 @@
+.vscode/*
+.eslintcache
+node_modules/
+lib/

@@ -1,43 +1,52 @@
 {
-	"name": "floatjs",
-	"version": "0.0.1",
-	"description": "Extensible typescript plugins that float on your framework",
-	"main": "index.js",
-	"scripts": {
-		"compile": "npm run fix && tsc --extendedDiagnostics",
-		"dev": "webpack-dev-server -d --config=webpack.dev.server.js",
-		"website": "webpack --config=webpack.dev.server.js --debug --verbose",
-		"fix": "eslint --fix .\\src\\*",
-		"start": "webpack --config=webpack.dev.server.js && http-server ./public"
-	},
-	"keywords": [
-		"Typescript",
-		"Javascript",
-		"Decorator",
-		"Observer",
-		"Selectbox"
-	],
-	"author": "Mukul Sharma",
-	"license": "ISC",
-	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^2.21.0",
-		"@typescript-eslint/parser": "^2.21.0",
-		"concurrently": "^5.1.0",
-		"eslint": "^6.8.0",
-		"eslint-config-standard": "^14.1.0",
-		"eslint-loader": "^3.0.3",
-		"eslint-plugin-import": "^2.20.1",
-		"eslint-plugin-node": "^11.0.0",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-standard": "^4.0.1",
-		"http-server": "^0.12.1",
-		"i": "^0.3.6",
-		"npm": "^6.14.1",
-		"standard": "^14.3.1",
-		"ts-loader": "^6.2.1",
-		"typescript": "^3.8.2",
-		"webpack": "^4.41.6",
-		"webpack-cli": "^3.3.11",
-		"webpack-dev-server": "^3.10.3"
-	}
+  "name": "suggesterjs",
+  "version": "0.0.1",
+  "description": "Extensible typescript plugins that float on your framework",
+  "main": "src/main.ts",
+  "scripts": {
+    "compile": "npm run fix && tsc --extendedDiagnostics",
+    "dev": "webpack-dev-server -d --config=webpack.dev.server.js",
+    "website": "webpack --config=webpack.dev.server.js --debug --verbose",
+    "fix": "eslint --fix .\\src\\*",
+    "start": "webpack --config=webpack.dev.server.js && http-server ./public"
+  },
+  "keywords": [
+    "Typescript",
+    "Javascript",
+    "Decorator",
+    "Observer",
+    "Selectbox"
+  ],
+  "author": "Rishabh Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "http-server": "^0.12.1",
+    "i": "^0.3.6",
+    "npm": "^6.14.1",
+    "standard": "^14.3.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabh2015/suggesterJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rishabh2015/suggesterJS/issues"
+  },
+  "homepage": "https://github.com/rishabh2015/suggesterJS#readme"
 }
